@@ -1,0 +1,369 @@
+floorPlans:
+- name: The Knight
+  builder: DR Horton
+  location: Schertz
+  community: Rhine Valley
+  enabled: true
+  pricedFrom: 229000
+  sqFeet: 1901
+  bedrooms: 4
+  bathrooms: 2
+  stories: 1
+  garageCars: 2
+  url: http://www.drhorton.com/Texas/San-Antonio/Schertz/Rhine-Valley/The-Knight
+  diagram:
+    url: http://vps.alpha-vision.com/app/vps.html?plan=f957510e-4a4a-4511-b9ba-d9b307e7b339
+    type: iframe
+    height: 550
+    width: 100%
+  images:
+  - url: http://www.drhorton.com/-/media/DRHorton/Sites/Com/States/425_San_Antonio/Express/Elevations/35-Express/1901---Knight/1901-C_The-Knight_ForWeb_4-20-17.ashx?h=365&la=en&mh=365&mw=644&w=644&hash=AA4088AB9618D4DD6203CBFE76996F13877979B2
+    group: elevation
+  - url: http://www.drhorton.com/-/media/DRHorton/Sites/Com/States/425_San_Antonio/Express/Elevations/35-Express/1901---Knight/1901A_forweb.ashx?h=365&la=en&mh=365&mw=644&w=644&hash=36AE2AEAA87CE8783E99D5C220F20480B8F448A5
+    group: elevation
+  - url: http://www.drhorton.com/-/media/DRHorton/Sites/Com/States/425_San_Antonio/Express/Elevations/35-Express/1901---Knight/1901B_forweb.ashx?h=365&la=en&mh=365&mw=644&w=644&hash=3312A39A46A6ED250FC253A5C0906EEEBB503AA0
+    group: elevation
+- name: The Torre
+  builder: DR Horton
+  location: Schertz
+  community: Rhine Valley
+  enabled: true
+  pricedFrom: 206000
+  sqFeet: 1442
+  bedrooms: 3
+  bathrooms: 2
+  stories: 1
+  garageCars: 2
+  url: http://www.drhorton.com/Texas/San-Antonio/Schertz/Rhine-Valley/The-Torre
+  diagram:
+    url: http://vps.alpha-vision.com/app/vps.html?plan=b4e6fbe3-c970-448b-a48a-7779275796c1
+    type: iframe
+    height: 550
+    width: 100%
+  images:
+  - url: http://www.drhorton.com/-/media/DRHorton/Sites/Com/States/425_San_Antonio/Express/Elevations/35-Express/1442---Torre/1442-C_The-Torre_ForWeb_4-20-17.ashx?h=365&la=en&mh=365&mw=644&w=644&hash=0613EBE44F7633F068B76C3EC46CFE4656B5DD52
+    group: elevation
+  - url: http://www.drhorton.com/-/media/DRHorton/Sites/Com/States/425_San_Antonio/Express/Elevations/35-Express/1442---Torre/1442-A_forweb.ashx?h=365&la=en&mh=365&mw=644&w=644&hash=52FB3EC72F19245CA2DA6DB277EB516D4ABF5F5C
+    group: elevation
+  - url: http://www.drhorton.com/-/media/DRHorton/Sites/Com/States/425_San_Antonio/Express/Elevations/35-Express/1442---Torre/1442-B_forweb.ashx?h=365&la=en&mh=365&mw=644&w=644&hash=574137F7828F03BA446E3D28E08EFC0743549F95
+    group: elevation
+- name: The Rockwall
+  builder: DR Horton
+  location: Cibolo
+  community: Saratoga Express
+  enabled: true
+  pricedFrom: 224500
+  sqFeet: 1480
+  bedrooms: 3
+  bathrooms: 2
+  stories: 1
+  garageCars: 2
+  url: http://www.drhorton.com/Texas/San-Antonio/Cibolo/Express-Saratoga-Express/The-Rockwall
+  diagram:
+    url: http://vps.alpha-vision.com/app/vps.html?plan=f4964154-6dde-47bc-99f3-a829125c9e63
+    type: iframe
+    height: 550
+    width: 100%
+  images:
+  - url: http://www.drhorton.com/-/media/DRHorton/Sites/Com/States/425_San_Antonio/Express/Elevations/40-Express/1480---The-Rockwall/1480-A_for-web.ashx?h=365&la=en&mh=365&mw=644&w=644&hash=3AD71547B93D3EF807E644BA153CBBE73F927BA7
+    group: elevation
+  - url: http://www.drhorton.com/-/media/DRHorton/Sites/Com/States/425_San_Antonio/Express/Elevations/40-Express/1480---The-Rockwall/1480-B_for-web.ashx?h=365&la=en&mh=365&mw=644&w=644&hash=73D74B4A65A7460504251B8ADC9AA420B2BBC929
+    group: elevation
+  - url: http://www.drhorton.com/-/media/DRHorton/Sites/Com/States/425_San_Antonio/Express/Elevations/40-Express/1480---The-Rockwall/1480-C_for-web.ashx?h=365&la=en&mh=365&mw=644&w=644&hash=B27B9202DC8C321583D3C56674C8F3C3BB9CDEB0
+    group: elevation
+  - url: http://www.drhorton.com/-/media/DRHorton/Sites/Com/States/425_San_Antonio/Express/Elevations/40-Express/1480---The-Rockwall/1480-D_for-web.ashx?h=365&la=en&mh=365&mw=644&w=644&hash=A3F3F6C982897ABFD38BC4ADC77D21282FC4B15B
+    group: elevation
+- name: The Kerville
+  builder: DR Horton
+  location: Cibolo
+  community: Saratoga Express
+  enabled: true
+  pricedFrom: 228500
+  sqFeet: 1580
+  bedrooms: 3
+  bathrooms: 2
+  stories: 1
+  garageCars: 2
+  url: http://www.drhorton.com/Texas/San-Antonio/Cibolo/Express-Saratoga-Express/The-Kerville
+  diagram:
+    url: http://vps.alpha-vision.com/app/vps.html?plan=f34965a5-d240-4b0e-b4ba-eefb9e945aca
+    type: iframe    
+    height: 550
+    width: 100%
+  images:
+  - url: http://www.drhorton.com/-/media/DRHorton/Sites/Com/States/425_San_Antonio/Express/Elevations/40-Express/1580---The-Kerville/1580-A_for-web.ashx?h=365&la=en&mh=365&mw=644&w=644&hash=749E3212F5CD5D3C23762FAE49DDA0C9F6E192F0
+    group: elevation
+  - url: http://www.drhorton.com/-/media/DRHorton/Sites/Com/States/425_San_Antonio/Express/Elevations/40-Express/1580---The-Kerville/1580-B_for-web.ashx?h=365&la=en&mh=365&mw=644&w=644&hash=516A7FA847639194399843B9C8BA722BA41FB0E2
+    group: elevation
+  - url: http://www.drhorton.com/-/media/DRHorton/Sites/Com/States/425_San_Antonio/Express/Elevations/40-Express/1580---The-Kerville/1580-C_for-web.ashx?h=365&la=en&mh=365&mw=644&w=644&hash=2CC5E6456089BA53B43F36F6EE4A431A7E553F6A
+    group: elevation
+  - url: http://www.drhorton.com/-/media/DRHorton/Sites/Com/States/425_San_Antonio/Express/Elevations/40-Express/1580---The-Kerville/1580-D_for-web.ashx?h=365&la=en&mh=365&mw=644&w=644&hash=A85F08D76447FDC058341B38156920535901A646
+    group: elevation
+- name: Parker
+  builder: DR Horton
+  location: Stone Oak
+  community: Wortham Oaks
+  enabled: false
+  pricedFrom: 254000
+  sqFeet: 1790
+  bedrooms: 3
+  bathrooms: 2
+  stories: 1
+  garageCars: 2
+  url: http://www.drhorton.com/Texas/San-Antonio/San-Antonio/wortham-oaks-patriot-plus/Parker
+  diagram:
+    url: http://www.drhorton.com/-/media/DRHorton/Sites/Com/States/425_San_Antonio/DR-Horton/Floorplans/Patriot/1790-FP_ForWeb.ashx?h=656&la=en&mh=3000&mw=644&w=644&hash=C0E07921BC054F4BDA4CEBD5DAEB1C1262E587FB
+    type: image
+    height: 550
+    width: 100%
+  images:
+  - url: http://www.drhorton.com/-/media/DRHorton/Sites/Com/States/425_San_Antonio/DR-Horton/Elevations/Patriot/1790-Parker/1790-R_2-Car_for-web.ashx?h=399&la=en&mh=3000&mw=644&w=644&hash=CD15A2F6C2EECE56594B711C7316028011CD1EBC
+    group: elevation
+  - url: http://www.drhorton.com/-/media/DRHorton/Sites/Com/States/425_San_Antonio/DR-Horton/Elevations/Patriot/1790-Parker/1790-S_2-Car_for-web.ashx?h=399&la=en&mh=3000&mw=644&w=644&hash=D8402BFC680E74BF872FD89731B40D98BA00272C
+    group: elevation
+- name: Monroe
+  builder: Lennar
+  location: Cibolo
+  community: Heights of Cibolo
+  enabled: true
+  pricedFrom: 228900
+  sqFeet: 1662
+  bedrooms: 3
+  bathrooms: 2
+  stories: 1
+  garageCars: 2
+  url: https://www.lennar.com/new-homes/texas/san-antonio/cibolo/heights-of-cibolo/monroe
+  diagram:
+    url: https://cdn.lennar.net/images/floorplans/23836_flp1_lg.jpg?d=20161028T115532
+    type: image
+    height: 600
+    width: 100%
+  images:
+  - url: https://cdn.lennar.net/~/media/Com/Images/New-Homes/18/64/1851/23836/ELE/NewHomeSanAntonio-HeightsOfCibolo-MonroeElevationA.ashx?d=20161028T121657
+    group: elevation
+  - url: https://cdn.lennar.net/~/media/Com/Images/New-Homes/18/64/1851/23836/ELE/NewHomeSanAntonio-HeightsOfCibolo-MonroeElevationB.ashx?d=20161028T121725
+    group: elevation
+  - url: https://cdn.lennar.net/~/media/Com/Images/New-Homes/18/64/1851/23836/ELE/NewHomeSanAntonio-HeightsOfCibolo-MonroeElevationC.ashx?d=20161028T121746
+    group: elevation
+- name: Thomas
+  builder: Lennar
+  location: Cibolo
+  community: Heights of Cibolo
+  enabled: true
+  pricedFrom: 237900
+  sqFeet: 1843
+  bedrooms: 3
+  bathrooms: 2
+  stories: 1
+  garageCars: 2
+  url: https://www.lennar.com/new-homes/texas/san-antonio/cibolo/heights-of-cibolo/thomas
+  diagram:
+    url: https://cdn.lennar.net/images/floorplans/23837_flp1_lg.jpg?d=20161028T120622
+    type: image
+    height: 600
+    width: 100%
+  images:
+  - url: https://cdn.lennar.net/images/elevations/23837_eleA_lg.jpg?d=20170107T125101
+    group: elevation
+  - url: https://www.lennar.com/images/elevations/23837_eleB_lg.jpg
+    group: elevation
+  - url:  https://www.lennar.com/images/elevations/23837_eleC_lg.jpg
+    group: elevation
+- name: Southbend
+  builder: Lennar
+  location: Stone Oaks
+  community: Wortham Oaks
+  enabled: false
+  pricedFrom: 242400
+  sqFeet: 1580
+  bedrooms: 3
+  bathrooms: 2
+  stories: 1
+  garageCars: 2
+  url: https://www.lennar.com/new-homes/texas/san-antonio/san-antonio/wortham-oaks/southbend
+  diagram:
+    url: https://cdn.lennar.net/images/floorplans/15905_flp1_lg.jpg?d=20150604T093605
+    type: image
+    height: 600
+    width: 100%
+  images:
+  - url: https://cdn.lennar.net/images/elevations/15905_eleC_lg.jpg?d=20141210T113159
+    group: elevation
+  - url: https://www.lennar.com/images/elevations/15905_eleD_lg.jpg
+    group: elevation
+  - url: https://www.lennar.com/images/elevations/15905_eleE_lg.jpg
+    group: elevation
+- name: Stapleton
+  builder: Lennar
+  location: Stone Oaks
+  community: Wortham Oaks
+  enabled: false
+  pricedFrom: 267400
+  sqFeet: 2054
+  bedrooms: 4
+  bathrooms: 2
+  stories: 1
+  garageCars: 2
+  url: https://www.lennar.com/new-homes/texas/san-antonio/san-antonio/wortham-oaks/stapleton
+  diagram:
+    url: https://cdn.lennar.net/images/floorplans/25169_flp1_lg.jpg?d=20170421T150639
+    type: image
+    height: 700
+    width: 100%
+  images:
+  - url: https://cdn.lennar.net/images/elevations/25169_eleC3_lg.jpg?d=20170421T150640
+    group: elevation
+  - url: https://www.lennar.com/images/elevations/25169_eleD3_lg.jpg
+    group: elevation
+  - url: https://www.lennar.com/images/elevations/25169_eleE3_lg.jpg
+    group: elevation
+- name: Cedar
+  builder: CalAtlantic Homes
+  location: Stone Oaks
+  community: Pointe at Wortham Oaks
+  enabled: true
+  pricedFrom: 251990
+  sqFeet: 1924
+  bedrooms: 3
+  bathrooms: 2
+  stories: 1
+  garageCars: 2
+  url: http://www.calatlantichomes.com/find-your-new-home/20-san-antonio/6062-pointe-at-wortham-oaks/42405-cedar.html
+  diagram:
+    url: http://nochrome.worthamoakspointe.ryland.ml3ds-cloud.com/FloorPlan/Details/155232?bed=3&bath=2&garage=2&sqft=1924
+    type: iframe
+    height: 600
+    width: 100%
+  images:
+  - url: http://cdn.calatlantichomes.com/images/webelevationpreviewimage/439768b2-01d4-e611-bbd5-02bfcd947d8b/image_1940_1456.jpg?v=63622083915&q=80&p=1
+    group: elevation
+  - url: http://cdn.calatlantichomes.com/images/webelevationpreviewimage/419768b2-01d4-e611-bbd5-02bfcd947d8b/image_1940_1456.jpg?v=63622083910&q=80&p=1
+    group: elevation
+  - url: http://cdn.calatlantichomes.com/images/webelevationpreviewimage/3f9768b2-01d4-e611-bbd5-02bfcd947d8b/image_1940_1456.jpg?v=63622352577&q=80&p=1
+    group: elevation
+  - url: http://cdn.calatlantichomes.com/images/webelevationpreviewimage/3d9768b2-01d4-e611-bbd5-02bfcd947d8b/image_1940_1456.jpg?v=63622352571&q=80&p=1
+    group: elevation
+- name: Denton
+  builder: CalAtlantic Homes
+  location: Cibolo
+  community: Turning Stone
+  enabled: true
+  pricedFrom: 237990
+  sqFeet: 1782
+  bedrooms: 3
+  bathrooms: 2
+  stories: 1
+  garageCars: 2
+  url: http://www.calatlantichomes.com/find-your-new-home/20-san-antonio/4722-enclave-at-turning-stone/33401-denton.html
+  diagram:
+    url: http://nochrome.turningstone.ryland.ml3ds-cloud.com/FloorPlan/Details/67108?bed=3&bath=2&garage=2&sqft=1782
+    type: iframe
+    height: 600
+    width: 100%
+  images:
+  - url: http://cdn.calatlantichomes.com/images/webelevationpreviewimage/00bee96c-b566-e411-85bd-02bfcd947d8b/image_1940_1456.jpg?v=63570749080&q=80&p=1
+    group: elevation
+  - url: http://cdn.calatlantichomes.com/images/webelevationpreviewimage/02bee96c-b566-e411-85bd-02bfcd947d8b/image_1940_1456.jpg?v=63570749163&q=80&p=1
+    group: elevation
+  - url: http://cdn.calatlantichomes.com/images/webelevationpreviewimage/03bee96c-b566-e411-85bd-02bfcd947d8b/image_1940_1456.jpg?v=63570749158&q=80&p=1
+    group: elevation
+  - url: http://cdn.calatlantichomes.com/images/webelevationpreviewimage/05bee96c-b566-e411-85bd-02bfcd947d8b/image_1940_1456.jpg?v=63570749167&q=80&p=1
+    group: elevation
+- name: Canton
+  builder: CalAtlantic Homes
+  location: Cibolo
+  community: Turning Stones
+  enabled: true
+  pricedFrom: 249990
+  sqFeet: 2029
+  bedrooms: 3
+  bathrooms: 2
+  stories: 1
+  garageCars: 2
+  url: http://www.calatlantichomes.com/find-your-new-home/20-san-antonio/4722-enclave-at-turning-stone/33403-canton.html
+  diagram:
+    url: http://nochrome.turningstone.ryland.ml3ds-cloud.com/FloorPlan/Details/67110?bed=3&bath=2&garage=2&sqft=2029
+    type: iframe
+    height: 600
+    width: 100%
+  images:
+  - url: http://cdn.calatlantichomes.com/images/webelevationpreviewimage/15bee96c-b566-e411-85bd-02bfcd947d8b/image_1940_1456.jpg?v=63610418076&q=80&p=1
+    group: elevation
+  - url: http://cdn.calatlantichomes.com/images/webelevationpreviewimage/14bee96c-b566-e411-85bd-02bfcd947d8b/image_1940_1456.jpg?v=63610418069&q=80&p=1
+    group: elevation
+  - url: http://cdn.calatlantichomes.com/images/webelevationpreviewimage/11bee96c-b566-e411-85bd-02bfcd947d8b/image_1940_1456.jpg?v=63610418062&q=80&p=1
+    group: elevation
+  - url: http://cdn.calatlantichomes.com/images/webelevationpreviewimage/10bee96c-b566-e411-85bd-02bfcd947d8b/image_1940_1456.jpg?v=63610418055&q=80&p=1
+    group: elevation
+- name: Knoxville
+  builder: CalAtlantic Homes
+  location: Schertz
+  community: Crossvine
+  enabled: true
+  pricedFrom: 256990
+  sqFeet: 2036
+  bedrooms: 3
+  bathrooms: 2
+  stories: 1
+  garageCars: 2
+  url: http://www.calatlantichomes.com/find-your-new-home/20-san-antonio/6343-enclave-at-crossvine/32890-knoxville-crossvine.html
+  diagram:
+    url: http://nochrome.crossvine.ryland.ml3ds-cloud.com/FloorPlan/Details/34589?bed=3&bath=2&garage=2&sqft=2036
+    type: iframe
+    height: 600
+    width: 100%
+  images:
+  - url: http://cdn.calatlantichomes.com/images/webelevationpreviewimage/49fedcc3-4713-e411-8b6a-02bfcd947d8b/image_1940_1456.jpg?v=63578467652&q=80&p=1
+    group: elevation
+  - url: http://cdn.calatlantichomes.com/images/webelevationpreviewimage/48fedcc3-4713-e411-8b6a-02bfcd947d8b/image_1940_1456.jpg?v=63578467650&q=80&p=1
+    group: elevation
+- name: The Franklin
+  builder: MI Homes
+  location: Converse
+  community: Paloma
+  enabled: false
+  pricedFrom: 210990
+  sqFeet: 1719
+  bedrooms: 4
+  bathrooms: 2
+  stories: 1
+  garageCars: 2
+  url: https://www.mihomes.com/home-plans/greater-san-antonio/san-antonio/paloma/franklin--1719
+  diagram:
+    url: https://secure.ml3ds-cloud.com/#/floorplan/130843?mode=nochrome
+    type: iframe
+    height: 700
+    width: 100%
+  images:
+  - url: https://medialabazure.blob.core.windows.net/productdata/MI Homes_8/35 Series_42716/35 Series_43826/1719-Franklin_130843/thumbs/lg/1719-Franklin-B-elev.jpg
+    group: elevation
+  - url: https://medialabazure.blob.core.windows.net/productdata/MI Homes_8/35 Series_42716/35 Series_43826/1719-Franklin_130843/thumbs/lg/1719-Franklin-C-elev.jpg
+    group: elevation
+  - url: https://medialabazure.blob.core.windows.net/productdata/MI Homes_8/35 Series_42716/35 Series_43826/1719-Franklin_130843/thumbs/lg/1719-Franklin-A-elev.jpg
+    group: elevation
+- name: Plan 1965
+  builder: KB Homes
+  location: Converse
+  community: Heights of Copperfield
+  enabled: true
+  pricedFrom: 184995
+  sqFeet: 1965
+  bedrooms: 4
+  bathrooms: 2
+  stories: 1
+  garageCars: 2
+  url: https://www.kbhome.com/new-homes-san-antonio/heights-of-copperfield/plan-1965
+  diagram:
+    url: https://www.kbhome.com/assets/images/Community%20Images/Texas/San%20Antonio%20-%20New%20Braunfels/Fox-Grove/Plans/Classic/1965%20Spec%201%20Floor%201.jpg?preset=convert-to-jpg&width=420
+    type: image
+    height: 700
+    width: 100%
+  images:
+  - url: https://www.kbhome.com/assets/images/Community%20Images/Texas/San%20Antonio%20-%20New%20Braunfels/Fox-Grove/Plans/Classic/1965%20A%20420x280.jpg?preset=medium
+    group: elevation
+  - url: https://www.kbhome.com/assets/images/Community%20Images/Texas/San%20Antonio%20-%20New%20Braunfels/Fox-Grove/Plans/Classic/1965%20B%20420x280.jpg?preset=medium
+    group: elevation
+  - url: https://www.kbhome.com/assets/images/Community%20Images/Texas/San%20Antonio%20-%20New%20Braunfels/Fox-Grove/Plans/Classic/1965%20C%20420x280.jpg?preset=medium
+    group: elevation
+  - url: https://www.kbhome.com/assets/images/Community%20Images/Texas/San%20Antonio%20-%20New%20Braunfels/Fox-Grove/Plans/Classic/1965%20D%20420x280.jpg?preset=medium
+    group: elevation

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head th:replace="layout :: site-head('Floor Plan ' + ${floorPlan.name})"/>
+	<body>
+		<header th:replace="layout :: site-header"></header>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12">
+					<div th:replace="layout :: alerts"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="panel panel-tight panel-primary">
+					<div class="panel-heading">
+						<h4 class="panel-title"><a href="homes/index.html" th:href="@{/web/homes}"><span class="glyphicon glyphicon-arrow-left"></span> <span th:text="${floorPlan.name}"></span></a></h4>
+					</div>
+					<form class="form-horizontal" action="homes/view.html" method="post" th:action="@{/web/homes/{plan}(plan=${floorPlan.name})}" th:object="${floorPlan}">
+						<div class="panel-body">
+							<div class="row">
+								<div class="col-xs-12 col-md-6">
+									<div class="panel panel-primary">
+										<a class="btn btn-primary btn-block" th:href="${floorPlan.url}" target="_blank">Go to Builder's Page <span class="glyphicon glyphicon-arrow-right"></span></a>
+										<div class="row">
+											<div class="col-xs-12">
+											</div>
+										</div>
+										<div class="panel-body">
+											<h4 class="text-center" th:text="${'Priced from ' + #numbers.formatCurrency(floorPlan.pricedFrom)}"></h4>
+											<div class="row">
+												<div class="col-xs-12 col-md-6">
+													<dl class="dl-horizontal">
+														<dt>Builder:</dt>
+														<dd th:text="${floorPlan.builder}"></dd>
+														<dt>Location:</dt>
+														<dd th:text="${floorPlan.location}"></dd>
+														<dt>Community:</dt>
+														<dd th:text="${floorPlan.community}"></dd>
+													</dl>
+												</div>
+												<div class="col-xs-12 col-md-6">
+													<dl class="dl-horizontal">
+														<dt>Square Feet:</dt>
+														<dd th:text="${floorPlan.sqFeet}"></dd>
+														<dt>Bedrooms:</dt>
+														<dd th:text="${floorPlan.bedrooms}"></dd>
+														<dt>Bathrooms:</dt>
+														<dd th:text="${floorPlan.bathrooms}"></dd>
+														<dt>Stories:</dt>
+														<dd th:text="${floorPlan.stories}"></dd>
+														<dt>Garage Cars:</dt>
+														<dd th:text="${floorPlan.garageCars}"></dd>
+													</dl>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-12 col-md-6">
+									<div id="elevation-carousel" class="carousel slide" data-ride="carousel">
+										<ol class="carousel-indicators">
+											<th:block th:each="image,status : ${floorPlan.images}">
+												<li data-target="#elevation-carousel" th:attr="data-slide-to=${status.index}" th:class="${status.index == 0 ? 'active' : ''}"></li>
+											</th:block>
+										</ol>
+										<div class="carousel-inner" role="listbox">
+											<th:block th:each="image,status : ${floorPlan.images}">
+												<div th:class="${status.index == 0 ? 'active item' : 'item'}">
+													<img class="img-responsive center-block" th:alt="${status.index}" th:src="${image.url}">
+													<div class="carousel-caption">
+														<div th:text="${'Elevation ' + status.count}"></div>
+													</div>
+												</div>
+											</th:block>
+										</div>
+										<a class="left carousel-control" href="#elevation-carousel" role="button" data-slide="prev">
+											<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="right carousel-control" href="#elevation-carousel" role="button" data-slide="next">
+											<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+											<span class="sr-only">Next</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12">
+									<img th:if="${#strings.equals(floorPlan.diagram.type, 'image')}" th:src="${floorPlan.diagram.url}" th:height="${floorPlan.diagram.height}" th:width="${floorPlan.diagram.width}"></img>
+									<iframe th:if="${#strings.equals(floorPlan.diagram.type, 'iframe')}" th:src="${floorPlan.diagram.url}" th:height="${floorPlan.diagram.height}" th:width="${floorPlan.diagram.width}"></iframe>
+								</div>
+							</div>
+						</div>
+						<div class="panel-footer">
+							<div class="row">
+								<div class="col-xs-6">
+									<button type="submit" class="btn btn-success btn-block" name="enable" th:attr="disabled=${floorPlan.enabled}"><span class="glyphicon glyphicon-thumbs-up"></span> Like it!</button>
+								</div>
+								<div class="col-xs-6">
+									<button type="submit" class="btn btn-danger btn-block" name="disable" th:attr="disabled=${!floorPlan.enabled}"><span class="glyphicon glyphicon-thumbs-down"></span> Don't like it.</button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<footer th:replace="layout :: site-footer" ></footer>
+		<th:block th:include="layout :: site-scripts" />
+<!-- 		<script src="/js/providers.js"></script> -->
+	</body>
+</html>
